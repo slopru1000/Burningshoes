@@ -1,0 +1,8 @@
+C:\Users\SERGIO LOPEZ\Desktop\Programas de c#\PROYECTO BS\CapaDatos\bin\Debug\CapaDatos.dll
+C:\Users\SERGIO LOPEZ\Desktop\Programas de c#\PROYECTO BS\CapaDatos\bin\Debug\CapaDatos.pdb
+C:\Users\SERGIO LOPEZ\Desktop\Programas de c#\PROYECTO BS\CapaDatos\bin\Debug\CapaEntidad.dll
+C:\Users\SERGIO LOPEZ\Desktop\Programas de c#\PROYECTO BS\CapaDatos\bin\Debug\CapaEntidad.pdb
+C:\Users\SERGIO LOPEZ\Desktop\Programas de c#\PROYECTO BS\CapaDatos\obj\Debug\DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\SERGIO LOPEZ\Desktop\Programas de c#\PROYECTO BS\CapaDatos\obj\Debug\DataAccess.csproj.CopyComplete
+C:\Users\SERGIO LOPEZ\Desktop\Programas de c#\PROYECTO BS\CapaDatos\obj\Debug\CapaDatos.dll
+C:\Users\SERGIO LOPEZ\Desktop\Programas de c#\PROYECTO BS\CapaDatos\obj\Debug\CapaDatos.pdb

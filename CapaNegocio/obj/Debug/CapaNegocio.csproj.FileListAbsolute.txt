@@ -1,0 +1,11 @@
+C:\Users\SERGIO LOPEZ\Desktop\Programas de c#\PROYECTO BS\CapaNegocio\obj\Debug\CapaNegocio.csproj.CoreCompileInputs.cache
+C:\Users\SERGIO LOPEZ\Desktop\Programas de c#\PROYECTO BS\CapaNegocio\bin\Debug\CapaNegocio.dll
+C:\Users\SERGIO LOPEZ\Desktop\Programas de c#\PROYECTO BS\CapaNegocio\bin\Debug\CapaNegocio.pdb
+C:\Users\SERGIO LOPEZ\Desktop\Programas de c#\PROYECTO BS\CapaNegocio\bin\Debug\CapaDatos.dll
+C:\Users\SERGIO LOPEZ\Desktop\Programas de c#\PROYECTO BS\CapaNegocio\bin\Debug\CapaEntidad.dll
+C:\Users\SERGIO LOPEZ\Desktop\Programas de c#\PROYECTO BS\CapaNegocio\bin\Debug\CapaDatos.pdb
+C:\Users\SERGIO LOPEZ\Desktop\Programas de c#\PROYECTO BS\CapaNegocio\bin\Debug\CapaEntidad.pdb
+C:\Users\SERGIO LOPEZ\Desktop\Programas de c#\PROYECTO BS\CapaNegocio\obj\Debug\CapaNegocio.csproj.AssemblyReference.cache
+C:\Users\SERGIO LOPEZ\Desktop\Programas de c#\PROYECTO BS\CapaNegocio\obj\Debug\CapaNegocio.csproj.CopyComplete
+C:\Users\SERGIO LOPEZ\Desktop\Programas de c#\PROYECTO BS\CapaNegocio\obj\Debug\CapaNegocio.dll
+C:\Users\SERGIO LOPEZ\Desktop\Programas de c#\PROYECTO BS\CapaNegocio\obj\Debug\CapaNegocio.pdb
