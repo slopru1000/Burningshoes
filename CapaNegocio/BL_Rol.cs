@@ -17,5 +17,10 @@ namespace CapaNegocio
         {
             return objcd_rol.Listar();
         }
+
+        public int Registrar(Rol rol, List<string> privilegiosSeleccionados, out string mensaje)
+        {
+            return objcd_rol.Registrar(rol, privilegiosSeleccionados, out mensaje);
+        }
     }
 }

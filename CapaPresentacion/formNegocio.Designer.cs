@@ -87,12 +87,12 @@
             // 
             this.btnsubir.BackColor = System.Drawing.Color.Black;
             this.btnsubir.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnsubir.FlatAppearance.BorderColor = System.Drawing.Color.Orange;
+            this.btnsubir.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.btnsubir.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnsubir.Font = new System.Drawing.Font("Impact", 15F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnsubir.ForeColor = System.Drawing.Color.Orange;
+            this.btnsubir.ForeColor = System.Drawing.Color.White;
             this.btnsubir.IconChar = FontAwesome.Sharp.IconChar.Upload;
-            this.btnsubir.IconColor = System.Drawing.Color.Orange;
+            this.btnsubir.IconColor = System.Drawing.Color.White;
             this.btnsubir.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btnsubir.IconSize = 40;
             this.btnsubir.Location = new System.Drawing.Point(61, 234);
@@ -109,12 +109,12 @@
             // 
             this.btnguardarcambios.BackColor = System.Drawing.Color.Black;
             this.btnguardarcambios.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnguardarcambios.FlatAppearance.BorderColor = System.Drawing.Color.Yellow;
+            this.btnguardarcambios.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.btnguardarcambios.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnguardarcambios.Font = new System.Drawing.Font("Impact", 15F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnguardarcambios.ForeColor = System.Drawing.Color.Yellow;
+            this.btnguardarcambios.ForeColor = System.Drawing.Color.White;
             this.btnguardarcambios.IconChar = FontAwesome.Sharp.IconChar.FloppyDisk;
-            this.btnguardarcambios.IconColor = System.Drawing.Color.Yellow;
+            this.btnguardarcambios.IconColor = System.Drawing.Color.White;
             this.btnguardarcambios.IconFont = FontAwesome.Sharp.IconFont.Solid;
             this.btnguardarcambios.IconSize = 40;
             this.btnguardarcambios.Location = new System.Drawing.Point(33, 446);
@@ -168,7 +168,7 @@
             this.txtnombre.BackColor = System.Drawing.Color.Black;
             this.txtnombre.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtnombre.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtnombre.ForeColor = System.Drawing.Color.Khaki;
+            this.txtnombre.ForeColor = System.Drawing.Color.LightGray;
             this.txtnombre.Location = new System.Drawing.Point(34, 313);
             this.txtnombre.Name = "txtnombre";
             this.txtnombre.Size = new System.Drawing.Size(224, 20);
@@ -180,7 +180,7 @@
             this.txtnit.BackColor = System.Drawing.Color.Black;
             this.txtnit.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtnit.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtnit.ForeColor = System.Drawing.Color.Khaki;
+            this.txtnit.ForeColor = System.Drawing.Color.LightGray;
             this.txtnit.Location = new System.Drawing.Point(34, 356);
             this.txtnit.Name = "txtnit";
             this.txtnit.Size = new System.Drawing.Size(224, 20);
@@ -192,7 +192,7 @@
             this.txtdireccion.BackColor = System.Drawing.Color.Black;
             this.txtdireccion.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtdireccion.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtdireccion.ForeColor = System.Drawing.Color.Khaki;
+            this.txtdireccion.ForeColor = System.Drawing.Color.LightGray;
             this.txtdireccion.Location = new System.Drawing.Point(33, 394);
             this.txtdireccion.Name = "txtdireccion";
             this.txtdireccion.Size = new System.Drawing.Size(224, 20);
@@ -201,7 +201,7 @@
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.Color.Orange;
+            this.panel1.BackColor = System.Drawing.Color.DarkGray;
             this.panel1.Controls.Add(this.iramodulos);
             this.panel1.Controls.Add(this.btncerrar);
             this.panel1.Controls.Add(this.picLogo);
@@ -240,7 +240,7 @@
             this.btncerrar.TabStop = false;
             this.btncerrar.Click += new System.EventHandler(this.btncerrar_Click);
             // 
-            // frmNegocio
+            // formNegocio
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -256,7 +256,7 @@
             this.Controls.Add(this.btnsubir);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "frmNegocio";
+            this.Name = "formNegocio";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "frmNegocio";
             this.Load += new System.EventHandler(this.frmNegocio_Load);

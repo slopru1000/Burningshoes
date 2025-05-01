@@ -124,6 +124,9 @@
   <data name="MenuProveedores" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\MenuProveedores.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Comprasnuevo (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Comprasnuevo (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="MenuUsusarios" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\MenuUsusarios.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -139,6 +142,12 @@
   <data name="cancelarlogin" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\cancelarlogin.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="MenuUsusariosfinal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MenuUsusariosfinal.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="menos" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\menos.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="guardarproducto" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\guardarproducto.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -151,20 +160,20 @@
   <data name="PlantillaCompra" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\PlantillaCompra.html;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
-  <data name="menuClientes" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\menuClientes.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="Check" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Check.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="exportarexcel" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\exportarexcel.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="trash" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\trash.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="MenuProveedores2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MenuProveedores2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="PlantillaVenta" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\PlantillaVenta.html;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="signo-menos-de-una-linea-en-posicion-horizontal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\signo-menos-de-una-linea-en-posicion-horizontal.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="eliminarbtn" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\eliminarbtn.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -199,8 +208,8 @@
   <data name="registrar" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\registrar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="menos" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\menos.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="exportarexcel" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\exportarexcel.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="VolveraModulos" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\VolveraModulos.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -208,8 +217,11 @@
   <data name="Menuusuariosult (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Menuusuariosult (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="signo-menos-de-una-linea-en-posicion-horizontal" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\signo-menos-de-una-linea-en-posicion-horizontal.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Menu Ventas Nuevo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Menu Ventas Nuevo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="menuClientes" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\menuClientes.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="BS (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\BS (1).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -238,13 +250,22 @@
   <data name="eliminarproducto" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\eliminarproducto.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="descargarpdf" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\descargarpdf.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="menuclientesnuevo (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\menuclientesnuevo (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="minimizar" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\minimizar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Menuproductosnuevos (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Menuproductosnuevos (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="LOGO_BURNING" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\LOGO_BURNING.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="descargarpdf" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\descargarpdf.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="menureportes (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\menureportes (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

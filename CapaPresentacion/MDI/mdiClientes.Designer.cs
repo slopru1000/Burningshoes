@@ -54,11 +54,11 @@
             // 
             this.btnbuscar.BackColor = System.Drawing.Color.Transparent;
             this.btnbuscar.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnbuscar.FlatAppearance.BorderColor = System.Drawing.Color.Yellow;
+            this.btnbuscar.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.btnbuscar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnbuscar.ForeColor = System.Drawing.Color.Black;
             this.btnbuscar.IconChar = FontAwesome.Sharp.IconChar.MagnifyingGlass;
-            this.btnbuscar.IconColor = System.Drawing.Color.Yellow;
+            this.btnbuscar.IconColor = System.Drawing.Color.White;
             this.btnbuscar.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btnbuscar.IconSize = 16;
             this.btnbuscar.Location = new System.Drawing.Point(398, 44);
@@ -95,7 +95,7 @@
             dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
             this.dgvdata.DefaultCellStyle = dataGridViewCellStyle2;
             this.dgvdata.GridColor = System.Drawing.Color.Black;
-            this.dgvdata.Location = new System.Drawing.Point(75, 93);
+            this.dgvdata.Location = new System.Drawing.Point(75, 111);
             this.dgvdata.MultiSelect = false;
             this.dgvdata.Name = "dgvdata";
             this.dgvdata.ReadOnly = true;
@@ -117,7 +117,7 @@
             this.dgvdata.RowTemplate.DefaultCellStyle.SelectionForeColor = System.Drawing.Color.Black;
             this.dgvdata.RowTemplate.Height = 28;
             this.dgvdata.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dgvdata.Size = new System.Drawing.Size(385, 198);
+            this.dgvdata.Size = new System.Drawing.Size(385, 459);
             this.dgvdata.TabIndex = 69;
             this.dgvdata.CellDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvdata_CellDoubleClick);
             // 
@@ -139,11 +139,11 @@
             // 
             this.btnlimpiarbuscador.BackColor = System.Drawing.Color.Transparent;
             this.btnlimpiarbuscador.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnlimpiarbuscador.FlatAppearance.BorderColor = System.Drawing.Color.Yellow;
+            this.btnlimpiarbuscador.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.btnlimpiarbuscador.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnlimpiarbuscador.ForeColor = System.Drawing.Color.Black;
             this.btnlimpiarbuscador.IconChar = FontAwesome.Sharp.IconChar.Broom;
-            this.btnlimpiarbuscador.IconColor = System.Drawing.Color.Yellow;
+            this.btnlimpiarbuscador.IconColor = System.Drawing.Color.White;
             this.btnlimpiarbuscador.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btnlimpiarbuscador.IconSize = 18;
             this.btnlimpiarbuscador.Location = new System.Drawing.Point(446, 44);
@@ -158,7 +158,7 @@
             // 
             this.txtbusqueda.BackColor = System.Drawing.Color.Black;
             this.txtbusqueda.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtbusqueda.ForeColor = System.Drawing.Color.Yellow;
+            this.txtbusqueda.ForeColor = System.Drawing.Color.White;
             this.txtbusqueda.Location = new System.Drawing.Point(240, 44);
             this.txtbusqueda.Name = "txtbusqueda";
             this.txtbusqueda.Size = new System.Drawing.Size(152, 23);
@@ -179,7 +179,7 @@
             this.label11.AutoSize = true;
             this.label11.BackColor = System.Drawing.Color.Transparent;
             this.label11.Font = new System.Drawing.Font("Impact", 12F, System.Drawing.FontStyle.Italic);
-            this.label11.ForeColor = System.Drawing.Color.Orange;
+            this.label11.ForeColor = System.Drawing.Color.DarkGray;
             this.label11.Location = new System.Drawing.Point(28, 46);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(84, 20);
@@ -191,7 +191,7 @@
             this.label2.AutoSize = true;
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("Impact", 20.75F, System.Drawing.FontStyle.Italic);
-            this.label2.ForeColor = System.Drawing.Color.Orange;
+            this.label2.ForeColor = System.Drawing.Color.DarkGray;
             this.label2.Location = new System.Drawing.Point(152, 0);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(203, 35);
@@ -244,8 +244,8 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.Orange;
-            this.ClientSize = new System.Drawing.Size(527, 303);
+            this.BackColor = System.Drawing.Color.DarkGray;
+            this.ClientSize = new System.Drawing.Size(527, 600);
             this.Controls.Add(this.dgvdata);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;

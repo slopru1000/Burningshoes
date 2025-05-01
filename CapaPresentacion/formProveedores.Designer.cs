@@ -28,10 +28,10 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle7 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle8 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
             this.btnexporterexcel = new FontAwesome.Sharp.IconButton();
             this.btneliminar = new FontAwesome.Sharp.IconButton();
             this.btnguardar = new FontAwesome.Sharp.IconButton();
@@ -86,7 +86,7 @@
             this.btnexporterexcel.BackgroundImage = global::CapaPresentacion.Properties.Resources.exportarexcel;
             this.btnexporterexcel.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.btnexporterexcel.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnexporterexcel.FlatAppearance.BorderColor = System.Drawing.Color.Yellow;
+            this.btnexporterexcel.FlatAppearance.BorderColor = System.Drawing.Color.DarkGray;
             this.btnexporterexcel.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnexporterexcel.Font = new System.Drawing.Font("Impact", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnexporterexcel.ForeColor = System.Drawing.Color.Black;
@@ -95,7 +95,7 @@
             this.btnexporterexcel.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btnexporterexcel.IconSize = 30;
             this.btnexporterexcel.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnexporterexcel.Location = new System.Drawing.Point(907, 269);
+            this.btnexporterexcel.Location = new System.Drawing.Point(1039, 357);
             this.btnexporterexcel.Name = "btnexporterexcel";
             this.btnexporterexcel.Size = new System.Drawing.Size(99, 136);
             this.btnexporterexcel.TabIndex = 102;
@@ -110,7 +110,7 @@
             this.btneliminar.BackgroundImage = global::CapaPresentacion.Properties.Resources.eliminarusuario;
             this.btneliminar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.btneliminar.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btneliminar.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.btneliminar.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.btneliminar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btneliminar.Font = new System.Drawing.Font("Impact", 14.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btneliminar.ForeColor = System.Drawing.Color.White;
@@ -118,7 +118,7 @@
             this.btneliminar.IconColor = System.Drawing.Color.White;
             this.btneliminar.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btneliminar.IconSize = 50;
-            this.btneliminar.Location = new System.Drawing.Point(866, 37);
+            this.btneliminar.Location = new System.Drawing.Point(1006, 38);
             this.btneliminar.Name = "btneliminar";
             this.btneliminar.Size = new System.Drawing.Size(90, 103);
             this.btneliminar.TabIndex = 101;
@@ -133,7 +133,7 @@
             this.btnguardar.BackgroundImage = global::CapaPresentacion.Properties.Resources.agregarusuario;
             this.btnguardar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.btnguardar.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnguardar.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.btnguardar.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.btnguardar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnguardar.Font = new System.Drawing.Font("Impact", 14.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnguardar.ForeColor = System.Drawing.Color.White;
@@ -141,7 +141,7 @@
             this.btnguardar.IconColor = System.Drawing.Color.White;
             this.btnguardar.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btnguardar.IconSize = 50;
-            this.btnguardar.Location = new System.Drawing.Point(760, 37);
+            this.btnguardar.Location = new System.Drawing.Point(900, 38);
             this.btnguardar.Name = "btnguardar";
             this.btnguardar.Size = new System.Drawing.Size(90, 103);
             this.btnguardar.TabIndex = 99;
@@ -174,15 +174,15 @@
             this.dgvdatos.BackgroundColor = System.Drawing.Color.Black;
             this.dgvdatos.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.dgvdatos.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.Raised;
-            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle5.BackColor = System.Drawing.Color.Orange;
-            dataGridViewCellStyle5.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle5.ForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle5.Padding = new System.Windows.Forms.Padding(2);
-            dataGridViewCellStyle5.SelectionBackColor = System.Drawing.Color.Yellow;
-            dataGridViewCellStyle5.SelectionForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgvdatos.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle5;
+            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle1.BackColor = System.Drawing.Color.Orange;
+            dataGridViewCellStyle1.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle1.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle1.Padding = new System.Windows.Forms.Padding(2);
+            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.Color.Yellow;
+            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgvdatos.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
             this.dgvdatos.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvdatos.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.btnseleccionar,
@@ -193,35 +193,35 @@
             this.Telefono,
             this.EstadoValor,
             this.Estado});
-            dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle6.BackColor = System.Drawing.Color.Orange;
-            dataGridViewCellStyle6.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle6.ForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle6.SelectionBackColor = System.Drawing.Color.Yellow;
-            dataGridViewCellStyle6.SelectionForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle6.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dgvdatos.DefaultCellStyle = dataGridViewCellStyle6;
+            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle2.BackColor = System.Drawing.Color.Orange;
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.Color.Yellow;
+            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dgvdatos.DefaultCellStyle = dataGridViewCellStyle2;
             this.dgvdatos.GridColor = System.Drawing.Color.Black;
-            this.dgvdatos.Location = new System.Drawing.Point(128, 252);
+            this.dgvdatos.Location = new System.Drawing.Point(241, 262);
             this.dgvdatos.MultiSelect = false;
             this.dgvdatos.Name = "dgvdatos";
             this.dgvdatos.ReadOnly = true;
-            dataGridViewCellStyle7.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle7.BackColor = System.Drawing.Color.Orange;
-            dataGridViewCellStyle7.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle7.ForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle7.SelectionBackColor = System.Drawing.Color.Yellow;
-            dataGridViewCellStyle7.SelectionForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle7.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgvdatos.RowHeadersDefaultCellStyle = dataGridViewCellStyle7;
-            dataGridViewCellStyle8.BackColor = System.Drawing.Color.Orange;
-            dataGridViewCellStyle8.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle8.ForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle8.SelectionBackColor = System.Drawing.Color.Yellow;
-            dataGridViewCellStyle8.SelectionForeColor = System.Drawing.Color.Black;
-            this.dgvdatos.RowsDefaultCellStyle = dataGridViewCellStyle8;
+            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle3.BackColor = System.Drawing.Color.Orange;
+            dataGridViewCellStyle3.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle3.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.Yellow;
+            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgvdatos.RowHeadersDefaultCellStyle = dataGridViewCellStyle3;
+            dataGridViewCellStyle4.BackColor = System.Drawing.Color.Orange;
+            dataGridViewCellStyle4.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle4.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle4.SelectionBackColor = System.Drawing.Color.Yellow;
+            dataGridViewCellStyle4.SelectionForeColor = System.Drawing.Color.Black;
+            this.dgvdatos.RowsDefaultCellStyle = dataGridViewCellStyle4;
             this.dgvdatos.RowTemplate.Height = 28;
-            this.dgvdatos.Size = new System.Drawing.Size(757, 238);
+            this.dgvdatos.Size = new System.Drawing.Size(749, 360);
             this.dgvdatos.TabIndex = 90;
             this.dgvdatos.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvdatos_CellContentClick);
             this.dgvdatos.CellPainting += new System.Windows.Forms.DataGridViewCellPaintingEventHandler(this.dgvdatos_CellPainting);
@@ -287,7 +287,7 @@
             this.txtdocumento.BackColor = System.Drawing.Color.Black;
             this.txtdocumento.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtdocumento.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtdocumento.ForeColor = System.Drawing.Color.Khaki;
+            this.txtdocumento.ForeColor = System.Drawing.Color.Silver;
             this.txtdocumento.Location = new System.Drawing.Point(116, 77);
             this.txtdocumento.Name = "txtdocumento";
             this.txtdocumento.Size = new System.Drawing.Size(224, 20);
@@ -299,7 +299,7 @@
             this.txtrazonsocial.BackColor = System.Drawing.Color.Black;
             this.txtrazonsocial.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtrazonsocial.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtrazonsocial.ForeColor = System.Drawing.Color.Khaki;
+            this.txtrazonsocial.ForeColor = System.Drawing.Color.Silver;
             this.txtrazonsocial.Location = new System.Drawing.Point(116, 121);
             this.txtrazonsocial.Name = "txtrazonsocial";
             this.txtrazonsocial.Size = new System.Drawing.Size(224, 20);
@@ -311,7 +311,7 @@
             this.txtcorreo.BackColor = System.Drawing.Color.Black;
             this.txtcorreo.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtcorreo.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtcorreo.ForeColor = System.Drawing.Color.Khaki;
+            this.txtcorreo.ForeColor = System.Drawing.Color.Silver;
             this.txtcorreo.Location = new System.Drawing.Point(401, 57);
             this.txtcorreo.Name = "txtcorreo";
             this.txtcorreo.Size = new System.Drawing.Size(224, 20);
@@ -323,7 +323,7 @@
             this.txttelefono.BackColor = System.Drawing.Color.Black;
             this.txttelefono.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txttelefono.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txttelefono.ForeColor = System.Drawing.Color.Khaki;
+            this.txttelefono.ForeColor = System.Drawing.Color.Silver;
             this.txttelefono.Location = new System.Drawing.Point(401, 97);
             this.txttelefono.Name = "txttelefono";
             this.txttelefono.Size = new System.Drawing.Size(224, 20);
@@ -338,10 +338,10 @@
             this.btnlimpiarbuscador.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnlimpiarbuscador.ForeColor = System.Drawing.Color.SaddleBrown;
             this.btnlimpiarbuscador.IconChar = FontAwesome.Sharp.IconChar.Broom;
-            this.btnlimpiarbuscador.IconColor = System.Drawing.Color.Yellow;
+            this.btnlimpiarbuscador.IconColor = System.Drawing.Color.White;
             this.btnlimpiarbuscador.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btnlimpiarbuscador.IconSize = 40;
-            this.btnlimpiarbuscador.Location = new System.Drawing.Point(745, 500);
+            this.btnlimpiarbuscador.Location = new System.Drawing.Point(883, 638);
             this.btnlimpiarbuscador.Name = "btnlimpiarbuscador";
             this.btnlimpiarbuscador.Size = new System.Drawing.Size(77, 48);
             this.btnlimpiarbuscador.TabIndex = 111;
@@ -357,10 +357,10 @@
             this.btnbuscar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnbuscar.ForeColor = System.Drawing.Color.White;
             this.btnbuscar.IconChar = FontAwesome.Sharp.IconChar.MagnifyingGlass;
-            this.btnbuscar.IconColor = System.Drawing.Color.Yellow;
+            this.btnbuscar.IconColor = System.Drawing.Color.White;
             this.btnbuscar.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btnbuscar.IconSize = 40;
-            this.btnbuscar.Location = new System.Drawing.Point(657, 500);
+            this.btnbuscar.Location = new System.Drawing.Point(795, 638);
             this.btnbuscar.Name = "btnbuscar";
             this.btnbuscar.Size = new System.Drawing.Size(77, 48);
             this.btnbuscar.TabIndex = 110;
@@ -371,7 +371,7 @@
             // txtbusqueda
             // 
             this.txtbusqueda.Font = new System.Drawing.Font("Century Gothic", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtbusqueda.Location = new System.Drawing.Point(426, 507);
+            this.txtbusqueda.Location = new System.Drawing.Point(564, 645);
             this.txtbusqueda.Name = "txtbusqueda";
             this.txtbusqueda.Size = new System.Drawing.Size(208, 32);
             this.txtbusqueda.TabIndex = 109;
@@ -381,7 +381,7 @@
             this.cbobusqueda.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbobusqueda.Font = new System.Drawing.Font("Century Gothic", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cbobusqueda.FormattingEnabled = true;
-            this.cbobusqueda.Location = new System.Drawing.Point(253, 507);
+            this.cbobusqueda.Location = new System.Drawing.Point(391, 645);
             this.cbobusqueda.Name = "cbobusqueda";
             this.cbobusqueda.Size = new System.Drawing.Size(167, 31);
             this.cbobusqueda.TabIndex = 108;
@@ -391,7 +391,7 @@
             this.label11.AutoSize = true;
             this.label11.BackColor = System.Drawing.Color.Transparent;
             this.label11.Font = new System.Drawing.Font("Impact", 15F, System.Drawing.FontStyle.Italic);
-            this.label11.Location = new System.Drawing.Point(143, 510);
+            this.label11.Location = new System.Drawing.Point(281, 648);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(104, 25);
             this.label11.TabIndex = 107;
@@ -414,7 +414,7 @@
             this.label8.AutoSize = true;
             this.label8.BackColor = System.Drawing.Color.Transparent;
             this.label8.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.ForeColor = System.Drawing.Color.Yellow;
+            this.label8.ForeColor = System.Drawing.Color.Silver;
             this.label8.Location = new System.Drawing.Point(401, 150);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(74, 21);
@@ -426,8 +426,8 @@
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Impact", 25F, System.Drawing.FontStyle.Italic);
-            this.label1.ForeColor = System.Drawing.Color.Orange;
-            this.label1.Location = new System.Drawing.Point(378, 0);
+            this.label1.ForeColor = System.Drawing.Color.DarkGray;
+            this.label1.Location = new System.Drawing.Point(373, 4);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(356, 42);
             this.label1.TabIndex = 114;
@@ -459,7 +459,7 @@
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1018, 199);
+            this.panel1.Size = new System.Drawing.Size(1200, 199);
             this.panel1.TabIndex = 115;
             this.panel1.MouseDown += new System.Windows.Forms.MouseEventHandler(this.panel1_MouseDown);
             // 
@@ -515,7 +515,7 @@
             // 
             this.btnminimizar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnminimizar.Image = global::CapaPresentacion.Properties.Resources.minimizar;
-            this.btnminimizar.Location = new System.Drawing.Point(949, 4);
+            this.btnminimizar.Location = new System.Drawing.Point(1122, 4);
             this.btnminimizar.Name = "btnminimizar";
             this.btnminimizar.Size = new System.Drawing.Size(30, 30);
             this.btnminimizar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -527,7 +527,7 @@
             // 
             this.Cerrar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.Cerrar.Image = global::CapaPresentacion.Properties.Resources.cerca;
-            this.Cerrar.Location = new System.Drawing.Point(985, 3);
+            this.Cerrar.Location = new System.Drawing.Point(1158, 4);
             this.Cerrar.Name = "Cerrar";
             this.Cerrar.Size = new System.Drawing.Size(30, 30);
             this.Cerrar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -540,7 +540,7 @@
             this.label2.AutoSize = true;
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("Impact", 15F, System.Drawing.FontStyle.Italic);
-            this.label2.ForeColor = System.Drawing.Color.Orange;
+            this.label2.ForeColor = System.Drawing.Color.DarkGray;
             this.label2.Location = new System.Drawing.Point(47, 2);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(111, 25);
@@ -549,7 +549,7 @@
             // 
             // btnLimpiarDatos
             // 
-            this.btnLimpiarDatos.BackColor = System.Drawing.Color.Yellow;
+            this.btnLimpiarDatos.BackColor = System.Drawing.Color.DarkGray;
             this.btnLimpiarDatos.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnLimpiarDatos.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.btnLimpiarDatos.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -559,7 +559,7 @@
             this.btnLimpiarDatos.IconColor = System.Drawing.Color.Black;
             this.btnLimpiarDatos.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btnLimpiarDatos.IconSize = 25;
-            this.btnLimpiarDatos.Location = new System.Drawing.Point(741, 150);
+            this.btnLimpiarDatos.Location = new System.Drawing.Point(886, 147);
             this.btnLimpiarDatos.Name = "btnLimpiarDatos";
             this.btnLimpiarDatos.Size = new System.Drawing.Size(224, 41);
             this.btnLimpiarDatos.TabIndex = 116;
@@ -593,12 +593,12 @@
             this.label10.Text = "Lista de Proveedores";
             this.label10.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // frmProveedores
+            // formProveedores
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.Orange;
-            this.ClientSize = new System.Drawing.Size(1018, 559);
+            this.BackColor = System.Drawing.Color.DarkGray;
+            this.ClientSize = new System.Drawing.Size(1200, 720);
             this.Controls.Add(this.label10);
             this.Controls.Add(this.btnlimpiarbuscador);
             this.Controls.Add(this.btnbuscar);
@@ -609,8 +609,7 @@
             this.Controls.Add(this.dgvdatos);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "frmProveedores";
-            this.Opacity = 0.9D;
+            this.Name = "formProveedores";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "frmProveedores";
             this.Load += new System.EventHandler(this.frmProveedores_Load);

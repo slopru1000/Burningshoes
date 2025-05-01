@@ -6,3 +6,4 @@ C:\Users\SERGIO LOPEZ\Desktop\Programas de c#\PROYECTO BS\CapaDatos\obj\Debug\Da
 C:\Users\SERGIO LOPEZ\Desktop\Programas de c#\PROYECTO BS\CapaDatos\obj\Debug\DataAccess.csproj.CopyComplete
 C:\Users\SERGIO LOPEZ\Desktop\Programas de c#\PROYECTO BS\CapaDatos\obj\Debug\CapaDatos.dll
 C:\Users\SERGIO LOPEZ\Desktop\Programas de c#\PROYECTO BS\CapaDatos\obj\Debug\CapaDatos.pdb
+C:\Users\SERGIO LOPEZ\Desktop\Programas de c#\PROYECTO BS\CapaDatos\obj\Debug\DataAccess.csproj.AssemblyReference.cache

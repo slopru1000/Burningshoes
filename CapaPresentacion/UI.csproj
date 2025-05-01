@@ -142,6 +142,19 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="formRoles.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formRoles.Designer.cs">
+      <DependentUpon>formRoles.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formHistorialdeCompras.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formHistorialdeCompras.Designer.cs">
+      <DependentUpon>formHistorialdeCompras.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Hovermenustrip.cs" />
     <Compile Include="formBienvenida.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -265,6 +278,9 @@
     <EmbeddedResource Include="formDetalleVenta.resx">
       <DependentUpon>formDetalleVenta.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="formHistorialdeCompras.resx">
+      <DependentUpon>formHistorialdeCompras.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="formNegocio.resx">
       <DependentUpon>formNegocio.cs</DependentUpon>
     </EmbeddedResource>
@@ -276,6 +292,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="formReportes.resx">
       <DependentUpon>formReportes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formRoles.resx">
+      <DependentUpon>formRoles.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="formUsuarios.resx">
       <DependentUpon>formUsuarios.cs</DependentUpon>
@@ -460,6 +479,27 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\descargarpdf.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MenuUsusariosfinal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MenuProveedores2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Menu Ventas Nuevo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Comprasnuevo %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Menuproductosnuevos %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\menuclientesnuevo %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\menureportes %281%29.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

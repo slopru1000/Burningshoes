@@ -28,10 +28,10 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle7 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle8 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
             this.dgvdata = new System.Windows.Forms.DataGridView();
             this.Producto = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Precio = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -81,15 +81,15 @@
             this.dgvdata.BackgroundColor = System.Drawing.Color.Black;
             this.dgvdata.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.dgvdata.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.Raised;
-            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle5.BackColor = System.Drawing.Color.Orange;
-            dataGridViewCellStyle5.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle5.ForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle5.Padding = new System.Windows.Forms.Padding(2);
-            dataGridViewCellStyle5.SelectionBackColor = System.Drawing.Color.Yellow;
-            dataGridViewCellStyle5.SelectionForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgvdata.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle5;
+            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle1.BackColor = System.Drawing.Color.Orange;
+            dataGridViewCellStyle1.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle1.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle1.Padding = new System.Windows.Forms.Padding(2);
+            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.Color.Yellow;
+            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgvdata.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
             this.dgvdata.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvdata.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.Producto,
@@ -98,32 +98,32 @@
             this.SubTotal,
             this.btneliminar});
             this.dgvdata.Cursor = System.Windows.Forms.Cursors.Hand;
-            dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle6.BackColor = System.Drawing.Color.Orange;
-            dataGridViewCellStyle6.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle6.ForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle6.SelectionBackColor = System.Drawing.Color.Yellow;
-            dataGridViewCellStyle6.SelectionForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle6.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dgvdata.DefaultCellStyle = dataGridViewCellStyle6;
+            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle2.BackColor = System.Drawing.Color.Orange;
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.Color.Yellow;
+            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dgvdata.DefaultCellStyle = dataGridViewCellStyle2;
             this.dgvdata.GridColor = System.Drawing.Color.Black;
             this.dgvdata.Location = new System.Drawing.Point(29, 64);
             this.dgvdata.MultiSelect = false;
             this.dgvdata.Name = "dgvdata";
             this.dgvdata.ReadOnly = true;
-            dataGridViewCellStyle7.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle7.BackColor = System.Drawing.Color.Orange;
-            dataGridViewCellStyle7.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle7.ForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle7.SelectionBackColor = System.Drawing.Color.Yellow;
-            dataGridViewCellStyle7.SelectionForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle7.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgvdata.RowHeadersDefaultCellStyle = dataGridViewCellStyle7;
-            dataGridViewCellStyle8.BackColor = System.Drawing.Color.Orange;
-            dataGridViewCellStyle8.ForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle8.SelectionBackColor = System.Drawing.Color.Yellow;
-            dataGridViewCellStyle8.SelectionForeColor = System.Drawing.Color.Black;
-            this.dgvdata.RowsDefaultCellStyle = dataGridViewCellStyle8;
+            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle3.BackColor = System.Drawing.Color.Orange;
+            dataGridViewCellStyle3.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle3.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.Yellow;
+            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgvdata.RowHeadersDefaultCellStyle = dataGridViewCellStyle3;
+            dataGridViewCellStyle4.BackColor = System.Drawing.Color.Orange;
+            dataGridViewCellStyle4.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle4.SelectionBackColor = System.Drawing.Color.Yellow;
+            dataGridViewCellStyle4.SelectionForeColor = System.Drawing.Color.Black;
+            this.dgvdata.RowsDefaultCellStyle = dataGridViewCellStyle4;
             this.dgvdata.RowTemplate.Height = 28;
             this.dgvdata.Size = new System.Drawing.Size(582, 198);
             this.dgvdata.TabIndex = 223;
@@ -191,7 +191,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.Color.Orange;
+            this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Impact", 16F, System.Drawing.FontStyle.Italic);
             this.label1.Location = new System.Drawing.Point(644, 64);
             this.label1.Name = "label1";
@@ -204,7 +204,7 @@
             this.txtmontototal.BackColor = System.Drawing.Color.Black;
             this.txtmontototal.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtmontototal.Font = new System.Drawing.Font("Century Gothic", 30F);
-            this.txtmontototal.ForeColor = System.Drawing.Color.Yellow;
+            this.txtmontototal.ForeColor = System.Drawing.Color.White;
             this.txtmontototal.Location = new System.Drawing.Point(635, 94);
             this.txtmontototal.Name = "txtmontototal";
             this.txtmontototal.ReadOnly = true;
@@ -221,7 +221,7 @@
             this.groupBox2.Controls.Add(this.txtnombrecliente);
             this.groupBox2.Controls.Add(this.label15);
             this.groupBox2.Font = new System.Drawing.Font("Impact", 11.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox2.ForeColor = System.Drawing.Color.Yellow;
+            this.groupBox2.ForeColor = System.Drawing.Color.White;
             this.groupBox2.Location = new System.Drawing.Point(507, 361);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Size = new System.Drawing.Size(267, 159);
@@ -252,7 +252,7 @@
             // 
             this.txtdoccliente.BackColor = System.Drawing.Color.Black;
             this.txtdoccliente.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtdoccliente.ForeColor = System.Drawing.Color.Yellow;
+            this.txtdoccliente.ForeColor = System.Drawing.Color.White;
             this.txtdoccliente.Location = new System.Drawing.Point(11, 59);
             this.txtdoccliente.Name = "txtdoccliente";
             this.txtdoccliente.ReadOnly = true;
@@ -263,7 +263,7 @@
             // 
             this.txtnombrecliente.BackColor = System.Drawing.Color.Black;
             this.txtnombrecliente.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtnombrecliente.ForeColor = System.Drawing.Color.Yellow;
+            this.txtnombrecliente.ForeColor = System.Drawing.Color.White;
             this.txtnombrecliente.Location = new System.Drawing.Point(10, 104);
             this.txtnombrecliente.Name = "txtnombrecliente";
             this.txtnombrecliente.ReadOnly = true;
@@ -291,7 +291,7 @@
             this.groupBox1.Controls.Add(this.label3);
             this.groupBox1.Controls.Add(this.label4);
             this.groupBox1.Font = new System.Drawing.Font("Impact", 11.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox1.ForeColor = System.Drawing.Color.Yellow;
+            this.groupBox1.ForeColor = System.Drawing.Color.White;
             this.groupBox1.Location = new System.Drawing.Point(12, 361);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(268, 156);
@@ -303,7 +303,7 @@
             // 
             this.txtusuario.BackColor = System.Drawing.Color.Black;
             this.txtusuario.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtusuario.ForeColor = System.Drawing.Color.Yellow;
+            this.txtusuario.ForeColor = System.Drawing.Color.White;
             this.txtusuario.Location = new System.Drawing.Point(9, 123);
             this.txtusuario.Name = "txtusuario";
             this.txtusuario.ReadOnly = true;
@@ -325,7 +325,7 @@
             // 
             this.txttipodocumento.BackColor = System.Drawing.Color.Black;
             this.txttipodocumento.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txttipodocumento.ForeColor = System.Drawing.Color.Yellow;
+            this.txttipodocumento.ForeColor = System.Drawing.Color.White;
             this.txttipodocumento.Location = new System.Drawing.Point(9, 81);
             this.txttipodocumento.Name = "txttipodocumento";
             this.txttipodocumento.ReadOnly = true;
@@ -336,7 +336,7 @@
             // 
             this.txtfecha.BackColor = System.Drawing.Color.Black;
             this.txtfecha.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtfecha.ForeColor = System.Drawing.Color.Yellow;
+            this.txtfecha.ForeColor = System.Drawing.Color.White;
             this.txtfecha.Location = new System.Drawing.Point(9, 39);
             this.txtfecha.Name = "txtfecha";
             this.txtfecha.ReadOnly = true;
@@ -424,7 +424,7 @@
             // 
             this.txtbusqueda.BackColor = System.Drawing.Color.Black;
             this.txtbusqueda.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtbusqueda.ForeColor = System.Drawing.Color.Yellow;
+            this.txtbusqueda.ForeColor = System.Drawing.Color.White;
             this.txtbusqueda.Location = new System.Drawing.Point(225, 290);
             this.txtbusqueda.Name = "txtbusqueda";
             this.txtbusqueda.Size = new System.Drawing.Size(160, 33);
@@ -433,10 +433,10 @@
             // label10
             // 
             this.label10.AutoSize = true;
-            this.label10.BackColor = System.Drawing.Color.Orange;
+            this.label10.BackColor = System.Drawing.Color.Transparent;
             this.label10.Font = new System.Drawing.Font("Impact", 15F, System.Drawing.FontStyle.Italic);
             this.label10.ForeColor = System.Drawing.Color.Black;
-            this.label10.Location = new System.Drawing.Point(49, 0);
+            this.label10.Location = new System.Drawing.Point(52, 2);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(111, 25);
             this.label10.TabIndex = 237;
@@ -483,10 +483,10 @@
             // 
             this.label9.AutoSize = true;
             this.label9.BackColor = System.Drawing.Color.Transparent;
-            this.label9.Font = new System.Drawing.Font("Impact", 20F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.Location = new System.Drawing.Point(285, 9);
+            this.label9.Font = new System.Drawing.Font("Impact", 30F, System.Drawing.FontStyle.Italic);
+            this.label9.Location = new System.Drawing.Point(285, 0);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(163, 34);
+            this.label9.Size = new System.Drawing.Size(236, 48);
             this.label9.TabIndex = 233;
             this.label9.Text = "Detalle Venta";
             // 
@@ -505,7 +505,7 @@
             // 
             this.txtmontopago.BackColor = System.Drawing.Color.Black;
             this.txtmontopago.Font = new System.Drawing.Font("Century Gothic", 30F);
-            this.txtmontopago.ForeColor = System.Drawing.Color.Yellow;
+            this.txtmontopago.ForeColor = System.Drawing.Color.White;
             this.txtmontopago.Location = new System.Drawing.Point(635, 176);
             this.txtmontopago.Name = "txtmontopago";
             this.txtmontopago.ReadOnly = true;
@@ -517,7 +517,7 @@
             // 
             this.txtmontocambio.BackColor = System.Drawing.Color.Black;
             this.txtmontocambio.Font = new System.Drawing.Font("Century Gothic", 30F);
-            this.txtmontocambio.ForeColor = System.Drawing.Color.Yellow;
+            this.txtmontocambio.ForeColor = System.Drawing.Color.White;
             this.txtmontocambio.Location = new System.Drawing.Point(635, 265);
             this.txtmontocambio.Name = "txtmontocambio";
             this.txtmontocambio.ReadOnly = true;
@@ -540,7 +540,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.Orange;
+            this.BackColor = System.Drawing.Color.DarkGray;
             this.ClientSize = new System.Drawing.Size(788, 526);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.txtmontocambio);
@@ -563,7 +563,6 @@
             this.Controls.Add(this.txtmontopago);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "formDetalleVenta";
-            this.Opacity = 0.9D;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "frmDetalleVenta";
             this.MouseDown += new System.Windows.Forms.MouseEventHandler(this.frmDetalleVenta_MouseDown);

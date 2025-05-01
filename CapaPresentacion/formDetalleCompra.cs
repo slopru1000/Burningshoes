@@ -19,18 +19,37 @@ namespace CapaPresentacion
 {
     public partial class formDetalleCompra : Form
     {
+        private string _numeroDocumentoAutoCargar = null;
+
         public formDetalleCompra()
         {
             InitializeComponent();
             iramodulos.Click += new EventHandler(iramodulos_Click);
+            this.Load += formDetalleCompra_Load;
         }
 
+        public formDetalleCompra(string numeroDocumento)
+        {
+            InitializeComponent();
+            iramodulos.Click += new EventHandler(iramodulos_Click);
+            this.Load += formDetalleCompra_Load;
+
+            _numeroDocumentoAutoCargar = numeroDocumento;
+        }
+
+        private void formDetalleCompra_Load(object sender, EventArgs e)
+        {
+            if (!string.IsNullOrEmpty(_numeroDocumentoAutoCargar))
+            {
+                txtbusqueda.Text = _numeroDocumentoAutoCargar;
+                btnbuscar.PerformClick();
+            }
+        }
 
         [DllImport("user32.DLL", EntryPoint = "ReleaseCapture")]
         private extern static void ReleaseCapture();
         [DllImport("user32.DLL", EntryPoint = "SendMessage")]
         private extern static void SendMessage(System.IntPtr hwnd, int wmsg, int wparam, int lparam);
-
 
         private void btnbuscar_Click(object sender, EventArgs e)
         {
@@ -38,9 +57,7 @@ namespace CapaPresentacion
 
             if (oCompra.IdCompra != 0)
             {
-
                 txtnumerodocumento.Text = oCompra.NumeroDocumento;
-
                 txtfecha.Text = oCompra.FechaRegistro;
                 txttipodocumento.Text = oCompra.TipoDocumento;
                 txtusuario.Text = oCompra.oUsuario.NombreCompleto;
@@ -54,11 +71,11 @@ namespace CapaPresentacion
                 }
 
                 txtmontototal.Text = oCompra.MontoTotal.ToString("0.00");
-
             }
             else
+            {
                 MessageBox.Show("El documento que busca no existe", "Mensaje", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
-
+            }
         }
 
         private void btnborrar_Click(object sender, EventArgs e)
@@ -68,14 +85,12 @@ namespace CapaPresentacion
             txtusuario.Text = "";
             txtdocproveedor.Text = "";
             txtnombreproveedor.Text = "";
-
             dgvdata.Rows.Clear();
             txtmontototal.Text = "0.00";
         }
 
         private void btnexporterexcel_Click(object sender, EventArgs e)
         {
-
             if (txttipodocumento.Text == "")
             {
                 MessageBox.Show("No se encontraron resultados para mostrar", "Mensaje", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
@@ -88,11 +103,8 @@ namespace CapaPresentacion
             Texto_Html = Texto_Html.Replace("@nombrenegocio", odatos.Nombre.ToUpper());
             Texto_Html = Texto_Html.Replace("@docnegocio", odatos.NIT);
             Texto_Html = Texto_Html.Replace("@direcnegocio", odatos.Direccion);
-
             Texto_Html = Texto_Html.Replace("@tipodocumento", txttipodocumento.Text.ToUpper());
             Texto_Html = Texto_Html.Replace("@numerodocumento", txtnumerodocumento.Text);
-
-
             Texto_Html = Texto_Html.Replace("@docproveedor", txtdocproveedor.Text);
             Texto_Html = Texto_Html.Replace("@nombreproveedor", txtnombreproveedor.Text);
             Texto_Html = Texto_Html.Replace("@fecharegistro", txtfecha.Text);
@@ -108,6 +120,7 @@ namespace CapaPresentacion
                 filas += "<td>" + row.Cells["SubTotal"].Value.ToString() + "</td>";
                 filas += "</tr>";
             }
+
             Texto_Html = Texto_Html.Replace("@filas", filas);
             Texto_Html = Texto_Html.Replace("@montototal", txtmontototal.Text);
 
@@ -119,9 +132,7 @@ namespace CapaPresentacion
             {
                 using (FileStream stream = new FileStream(savefile.FileName, FileMode.Create))
                 {
-
                     Document pdfDoc = new Document(PageSize.A4, 25, 25, 25, 25);
-
                     PdfWriter writer = PdfWriter.GetInstance(pdfDoc, stream);
                     pdfDoc.Open();
 
@@ -144,22 +155,14 @@ namespace CapaPresentacion
 
                     pdfDoc.Close();
                     stream.Close();
-                    MessageBox.Show("El documento ha Generado", "Mensaje", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    MessageBox.Show("El documento ha sido generado", "Mensaje", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 }
             }
         }
 
         private void btncerrar_Click(object sender, EventArgs e)
         {
-            DialogResult result = MessageBox.Show("¿Desea cerrar sesión?", "Confirmación", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
-
-            if (result == DialogResult.Yes)
-            {
-
-                this.Hide();
-                Login loginForm = new Login();
-                loginForm.Show();
-            }
+            this.Close();
         }
 
         private void btnminimizar_Click(object sender, EventArgs e)
@@ -171,8 +174,8 @@ namespace CapaPresentacion
         {
             if (Inicio.Instance != null)
             {
-                this.Close(); // Cierra el formulario actual
-                Inicio.Instance.AbrirFormulario(null, Inicio.Instance); // Llama al método AbrirFormulario del formulario Inicio
+                this.Close();
+                Inicio.Instance.AbrirFormulario(null, Inicio.Instance);
             }
             else
             {

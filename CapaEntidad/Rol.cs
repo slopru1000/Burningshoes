@@ -10,6 +10,7 @@ namespace CapaEntidad
     {
         public int IdRol { get; set; }
         public string Descripcion { get; set; }
-        public int FechaRegistro { get; set; }
+        public string FechaRegistro { get; set; }
+        public List<Permiso> Permisos { get; set; } // necesario para registrar
     }
 }

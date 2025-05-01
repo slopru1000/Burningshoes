@@ -156,6 +156,7 @@
             this.dgvdata.RowTemplate.Height = 28;
             this.dgvdata.Size = new System.Drawing.Size(582, 198);
             this.dgvdata.TabIndex = 213;
+           
             // 
             // txtnumerodocumento
             // 
@@ -180,7 +181,7 @@
             // 
             this.txtdocproveedor.BackColor = System.Drawing.Color.Black;
             this.txtdocproveedor.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtdocproveedor.ForeColor = System.Drawing.Color.Yellow;
+            this.txtdocproveedor.ForeColor = System.Drawing.Color.White;
             this.txtdocproveedor.Location = new System.Drawing.Point(11, 59);
             this.txtdocproveedor.Name = "txtdocproveedor";
             this.txtdocproveedor.ReadOnly = true;
@@ -191,7 +192,7 @@
             // 
             this.txtnombreproveedor.BackColor = System.Drawing.Color.Black;
             this.txtnombreproveedor.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtnombreproveedor.ForeColor = System.Drawing.Color.Yellow;
+            this.txtnombreproveedor.ForeColor = System.Drawing.Color.White;
             this.txtnombreproveedor.Location = new System.Drawing.Point(10, 104);
             this.txtnombreproveedor.Name = "txtnombreproveedor";
             this.txtnombreproveedor.ReadOnly = true;
@@ -214,7 +215,7 @@
             this.txtmontototal.BackColor = System.Drawing.Color.Black;
             this.txtmontototal.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtmontototal.Font = new System.Drawing.Font("Century Gothic", 30F);
-            this.txtmontototal.ForeColor = System.Drawing.Color.Yellow;
+            this.txtmontototal.ForeColor = System.Drawing.Color.White;
             this.txtmontototal.Location = new System.Drawing.Point(580, 293);
             this.txtmontototal.Name = "txtmontototal";
             this.txtmontototal.ReadOnly = true;
@@ -231,7 +232,7 @@
             this.groupBox2.Controls.Add(this.txtnombreproveedor);
             this.groupBox2.Controls.Add(this.label15);
             this.groupBox2.Font = new System.Drawing.Font("Impact", 11.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox2.ForeColor = System.Drawing.Color.Yellow;
+            this.groupBox2.ForeColor = System.Drawing.Color.White;
             this.groupBox2.Location = new System.Drawing.Point(472, 356);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Size = new System.Drawing.Size(267, 159);
@@ -243,7 +244,7 @@
             // 
             this.txtusuario.BackColor = System.Drawing.Color.Black;
             this.txtusuario.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtusuario.ForeColor = System.Drawing.Color.Yellow;
+            this.txtusuario.ForeColor = System.Drawing.Color.White;
             this.txtusuario.Location = new System.Drawing.Point(9, 123);
             this.txtusuario.Name = "txtusuario";
             this.txtusuario.ReadOnly = true;
@@ -265,7 +266,7 @@
             // 
             this.txttipodocumento.BackColor = System.Drawing.Color.Black;
             this.txttipodocumento.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txttipodocumento.ForeColor = System.Drawing.Color.Yellow;
+            this.txttipodocumento.ForeColor = System.Drawing.Color.White;
             this.txttipodocumento.Location = new System.Drawing.Point(9, 81);
             this.txttipodocumento.Name = "txttipodocumento";
             this.txttipodocumento.ReadOnly = true;
@@ -276,7 +277,7 @@
             // 
             this.txtfecha.BackColor = System.Drawing.Color.Black;
             this.txtfecha.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtfecha.ForeColor = System.Drawing.Color.Yellow;
+            this.txtfecha.ForeColor = System.Drawing.Color.White;
             this.txtfecha.Location = new System.Drawing.Point(9, 39);
             this.txtfecha.Name = "txtfecha";
             this.txtfecha.ReadOnly = true;
@@ -304,7 +305,7 @@
             this.groupBox1.Controls.Add(this.label3);
             this.groupBox1.Controls.Add(this.label4);
             this.groupBox1.Font = new System.Drawing.Font("Impact", 11.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox1.ForeColor = System.Drawing.Color.Yellow;
+            this.groupBox1.ForeColor = System.Drawing.Color.White;
             this.groupBox1.Location = new System.Drawing.Point(12, 356);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(268, 156);
@@ -338,7 +339,7 @@
             // 
             this.txtbusqueda.BackColor = System.Drawing.Color.Black;
             this.txtbusqueda.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtbusqueda.ForeColor = System.Drawing.Color.Yellow;
+            this.txtbusqueda.ForeColor = System.Drawing.Color.White;
             this.txtbusqueda.Location = new System.Drawing.Point(232, 285);
             this.txtbusqueda.Name = "txtbusqueda";
             this.txtbusqueda.Size = new System.Drawing.Size(160, 33);
@@ -477,7 +478,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.Orange;
+            this.BackColor = System.Drawing.Color.DarkGray;
             this.ClientSize = new System.Drawing.Size(751, 525);
             this.Controls.Add(this.label10);
             this.Controls.Add(this.iramodulos);
@@ -496,7 +497,6 @@
             this.Controls.Add(this.label9);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "formDetalleCompra";
-            this.Opacity = 0.9D;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "frmDetalleCompra";
             this.MouseDown += new System.Windows.Forms.MouseEventHandler(this.frmDetalleCompra_MouseDown);

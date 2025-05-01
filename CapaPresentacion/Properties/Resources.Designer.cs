@@ -153,6 +153,16 @@ namespace CapaPresentacion.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Comprasnuevo__1_ {
+            get {
+                object obj = ResourceManager.GetObject("Comprasnuevo (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap descargarpdf {
             get {
                 object obj = ResourceManager.GetObject("descargarpdf", resourceCulture);
@@ -273,9 +283,29 @@ namespace CapaPresentacion.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Menu_Ventas_Nuevo {
+            get {
+                object obj = ResourceManager.GetObject("Menu Ventas Nuevo", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap menuClientes {
             get {
                 object obj = ResourceManager.GetObject("menuClientes", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap menuclientesnuevo__1_ {
+            get {
+                object obj = ResourceManager.GetObject("menuclientesnuevo (1)", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -313,6 +343,16 @@ namespace CapaPresentacion.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Menuproductosnuevos__1_ {
+            get {
+                object obj = ResourceManager.GetObject("Menuproductosnuevos (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap MenuProveedores {
             get {
                 object obj = ResourceManager.GetObject("MenuProveedores", resourceCulture);
@@ -343,6 +383,16 @@ namespace CapaPresentacion.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap MenuProveedores2 {
+            get {
+                object obj = ResourceManager.GetObject("MenuProveedores2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap MenuProveedoresnuevo {
             get {
                 object obj = ResourceManager.GetObject("MenuProveedoresnuevo", resourceCulture);
@@ -356,6 +406,16 @@ namespace CapaPresentacion.Properties {
         internal static System.Drawing.Bitmap menuReporte {
             get {
                 object obj = ResourceManager.GetObject("menuReporte", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap menureportes__1_ {
+            get {
+                object obj = ResourceManager.GetObject("menureportes (1)", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -386,6 +446,16 @@ namespace CapaPresentacion.Properties {
         internal static System.Drawing.Bitmap MenuUsusarios {
             get {
                 object obj = ResourceManager.GetObject("MenuUsusarios", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap MenuUsusariosfinal {
+            get {
+                object obj = ResourceManager.GetObject("MenuUsusariosfinal", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

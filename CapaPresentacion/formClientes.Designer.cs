@@ -89,12 +89,12 @@
             this.btneliminar.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.btneliminar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btneliminar.Font = new System.Drawing.Font("Impact", 14.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btneliminar.ForeColor = System.Drawing.Color.Yellow;
+            this.btneliminar.ForeColor = System.Drawing.Color.DarkGray;
             this.btneliminar.IconChar = FontAwesome.Sharp.IconChar.None;
             this.btneliminar.IconColor = System.Drawing.Color.White;
             this.btneliminar.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btneliminar.IconSize = 50;
-            this.btneliminar.Location = new System.Drawing.Point(835, 31);
+            this.btneliminar.Location = new System.Drawing.Point(1000, 29);
             this.btneliminar.Name = "btneliminar";
             this.btneliminar.Size = new System.Drawing.Size(90, 103);
             this.btneliminar.TabIndex = 76;
@@ -112,12 +112,12 @@
             this.btnguardar.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.btnguardar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnguardar.Font = new System.Drawing.Font("Impact", 14.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnguardar.ForeColor = System.Drawing.Color.Yellow;
+            this.btnguardar.ForeColor = System.Drawing.Color.DarkGray;
             this.btnguardar.IconChar = FontAwesome.Sharp.IconChar.None;
             this.btnguardar.IconColor = System.Drawing.Color.White;
             this.btnguardar.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btnguardar.IconSize = 50;
-            this.btnguardar.Location = new System.Drawing.Point(739, 31);
+            this.btnguardar.Location = new System.Drawing.Point(904, 29);
             this.btnguardar.Name = "btnguardar";
             this.btnguardar.Size = new System.Drawing.Size(90, 103);
             this.btnguardar.TabIndex = 74;
@@ -178,7 +178,7 @@
             dataGridViewCellStyle6.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
             this.dgvdatos.DefaultCellStyle = dataGridViewCellStyle6;
             this.dgvdatos.GridColor = System.Drawing.Color.Black;
-            this.dgvdatos.Location = new System.Drawing.Point(121, 242);
+            this.dgvdatos.Location = new System.Drawing.Point(148, 264);
             this.dgvdatos.MultiSelect = false;
             this.dgvdatos.Name = "dgvdatos";
             this.dgvdatos.ReadOnly = true;
@@ -197,7 +197,7 @@
             dataGridViewCellStyle8.SelectionForeColor = System.Drawing.Color.Black;
             this.dgvdatos.RowsDefaultCellStyle = dataGridViewCellStyle8;
             this.dgvdatos.RowTemplate.Height = 28;
-            this.dgvdatos.Size = new System.Drawing.Size(759, 238);
+            this.dgvdatos.Size = new System.Drawing.Size(856, 339);
             this.dgvdatos.TabIndex = 65;
             this.dgvdatos.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvdatos_CellContentClick);
             this.dgvdatos.CellPainting += new System.Windows.Forms.DataGridViewCellPaintingEventHandler(this.dgvdatos_CellPainting);
@@ -284,7 +284,7 @@
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1002, 199);
+            this.panel1.Size = new System.Drawing.Size(1200, 199);
             this.panel1.TabIndex = 77;
             this.panel1.MouseDown += new System.Windows.Forms.MouseEventHandler(this.panel1_MouseDown);
             // 
@@ -293,7 +293,7 @@
             this.label2.AutoSize = true;
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("Impact", 15F, System.Drawing.FontStyle.Italic);
-            this.label2.ForeColor = System.Drawing.Color.Orange;
+            this.label2.ForeColor = System.Drawing.Color.DarkGray;
             this.label2.Location = new System.Drawing.Point(46, 0);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(111, 25);
@@ -316,7 +316,7 @@
             // 
             this.btnminimizar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnminimizar.Image = global::CapaPresentacion.Properties.Resources.minimizar;
-            this.btnminimizar.Location = new System.Drawing.Point(934, 4);
+            this.btnminimizar.Location = new System.Drawing.Point(1131, 4);
             this.btnminimizar.Name = "btnminimizar";
             this.btnminimizar.Size = new System.Drawing.Size(30, 30);
             this.btnminimizar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -329,7 +329,7 @@
             this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox1.Enabled = false;
             this.pictureBox1.Image = global::CapaPresentacion.Properties.Resources.menos;
-            this.pictureBox1.Location = new System.Drawing.Point(349, 129);
+            this.pictureBox1.Location = new System.Drawing.Point(490, 128);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(225, 10);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -340,7 +340,7 @@
             // 
             this.Cerrar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.Cerrar.Image = global::CapaPresentacion.Properties.Resources.cerca;
-            this.Cerrar.Location = new System.Drawing.Point(970, 3);
+            this.Cerrar.Location = new System.Drawing.Point(1167, 4);
             this.Cerrar.Name = "Cerrar";
             this.Cerrar.Size = new System.Drawing.Size(30, 30);
             this.Cerrar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -353,7 +353,7 @@
             this.pictureBox3.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox3.Enabled = false;
             this.pictureBox3.Image = global::CapaPresentacion.Properties.Resources.menos;
-            this.pictureBox3.Location = new System.Drawing.Point(349, 85);
+            this.pictureBox3.Location = new System.Drawing.Point(490, 84);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(225, 10);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -365,7 +365,7 @@
             this.pictureBox4.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox4.Enabled = false;
             this.pictureBox4.Image = global::CapaPresentacion.Properties.Resources.menos;
-            this.pictureBox4.Location = new System.Drawing.Point(64, 149);
+            this.pictureBox4.Location = new System.Drawing.Point(148, 151);
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.Size = new System.Drawing.Size(225, 10);
             this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -377,7 +377,7 @@
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Impact", 25F, System.Drawing.FontStyle.Italic);
-            this.label1.ForeColor = System.Drawing.Color.Orange;
+            this.label1.ForeColor = System.Drawing.Color.DarkGray;
             this.label1.Location = new System.Drawing.Point(372, 6);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(297, 42);
@@ -389,7 +389,7 @@
             this.pictureBox2.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox2.Enabled = false;
             this.pictureBox2.Image = global::CapaPresentacion.Properties.Resources.menos;
-            this.pictureBox2.Location = new System.Drawing.Point(64, 105);
+            this.pictureBox2.Location = new System.Drawing.Point(148, 107);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(225, 10);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -398,7 +398,7 @@
             // 
             // btnLimpiarDatos
             // 
-            this.btnLimpiarDatos.BackColor = System.Drawing.Color.Orange;
+            this.btnLimpiarDatos.BackColor = System.Drawing.Color.DarkGray;
             this.btnLimpiarDatos.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnLimpiarDatos.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.btnLimpiarDatos.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -408,7 +408,7 @@
             this.btnLimpiarDatos.IconColor = System.Drawing.Color.Black;
             this.btnLimpiarDatos.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btnLimpiarDatos.IconSize = 25;
-            this.btnLimpiarDatos.Location = new System.Drawing.Point(721, 144);
+            this.btnLimpiarDatos.Location = new System.Drawing.Point(886, 142);
             this.btnLimpiarDatos.Name = "btnLimpiarDatos";
             this.btnLimpiarDatos.Size = new System.Drawing.Size(224, 41);
             this.btnLimpiarDatos.TabIndex = 117;
@@ -425,7 +425,7 @@
             this.cboestado.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cboestado.ForeColor = System.Drawing.Color.Yellow;
             this.cboestado.FormattingEnabled = true;
-            this.cboestado.Location = new System.Drawing.Point(430, 151);
+            this.cboestado.Location = new System.Drawing.Point(571, 150);
             this.cboestado.Name = "cboestado";
             this.cboestado.Size = new System.Drawing.Size(224, 29);
             this.cboestado.TabIndex = 119;
@@ -435,8 +435,8 @@
             this.label8.AutoSize = true;
             this.label8.BackColor = System.Drawing.Color.Transparent;
             this.label8.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.ForeColor = System.Drawing.Color.Yellow;
-            this.label8.Location = new System.Drawing.Point(350, 155);
+            this.label8.ForeColor = System.Drawing.Color.Silver;
+            this.label8.Location = new System.Drawing.Point(491, 154);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(74, 21);
             this.label8.TabIndex = 118;
@@ -447,8 +447,8 @@
             this.txtdocumento.BackColor = System.Drawing.Color.Black;
             this.txtdocumento.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtdocumento.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtdocumento.ForeColor = System.Drawing.Color.Khaki;
-            this.txtdocumento.Location = new System.Drawing.Point(65, 82);
+            this.txtdocumento.ForeColor = System.Drawing.Color.Silver;
+            this.txtdocumento.Location = new System.Drawing.Point(149, 84);
             this.txtdocumento.Name = "txtdocumento";
             this.txtdocumento.Size = new System.Drawing.Size(224, 20);
             this.txtdocumento.TabIndex = 114;
@@ -459,8 +459,8 @@
             this.txtnombrecompleto.BackColor = System.Drawing.Color.Black;
             this.txtnombrecompleto.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtnombrecompleto.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtnombrecompleto.ForeColor = System.Drawing.Color.Khaki;
-            this.txtnombrecompleto.Location = new System.Drawing.Point(65, 126);
+            this.txtnombrecompleto.ForeColor = System.Drawing.Color.Silver;
+            this.txtnombrecompleto.Location = new System.Drawing.Point(149, 128);
             this.txtnombrecompleto.Name = "txtnombrecompleto";
             this.txtnombrecompleto.Size = new System.Drawing.Size(224, 20);
             this.txtnombrecompleto.TabIndex = 115;
@@ -471,8 +471,8 @@
             this.txtcorreo.BackColor = System.Drawing.Color.Black;
             this.txtcorreo.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtcorreo.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtcorreo.ForeColor = System.Drawing.Color.Khaki;
-            this.txtcorreo.Location = new System.Drawing.Point(350, 62);
+            this.txtcorreo.ForeColor = System.Drawing.Color.Silver;
+            this.txtcorreo.Location = new System.Drawing.Point(491, 61);
             this.txtcorreo.Name = "txtcorreo";
             this.txtcorreo.Size = new System.Drawing.Size(224, 20);
             this.txtcorreo.TabIndex = 116;
@@ -483,8 +483,8 @@
             this.txttelefono.BackColor = System.Drawing.Color.Black;
             this.txttelefono.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txttelefono.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txttelefono.ForeColor = System.Drawing.Color.Khaki;
-            this.txttelefono.Location = new System.Drawing.Point(350, 106);
+            this.txttelefono.ForeColor = System.Drawing.Color.Silver;
+            this.txttelefono.Location = new System.Drawing.Point(491, 105);
             this.txttelefono.Name = "txttelefono";
             this.txttelefono.Size = new System.Drawing.Size(224, 20);
             this.txttelefono.TabIndex = 117;
@@ -510,10 +510,10 @@
             this.btnlimpiarbuscador.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnlimpiarbuscador.ForeColor = System.Drawing.Color.SaddleBrown;
             this.btnlimpiarbuscador.IconChar = FontAwesome.Sharp.IconChar.Broom;
-            this.btnlimpiarbuscador.IconColor = System.Drawing.Color.Yellow;
+            this.btnlimpiarbuscador.IconColor = System.Drawing.Color.White;
             this.btnlimpiarbuscador.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btnlimpiarbuscador.IconSize = 40;
-            this.btnlimpiarbuscador.Location = new System.Drawing.Point(765, 486);
+            this.btnlimpiarbuscador.Location = new System.Drawing.Point(890, 637);
             this.btnlimpiarbuscador.Name = "btnlimpiarbuscador";
             this.btnlimpiarbuscador.Size = new System.Drawing.Size(77, 48);
             this.btnlimpiarbuscador.TabIndex = 125;
@@ -529,10 +529,10 @@
             this.btnbuscar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnbuscar.ForeColor = System.Drawing.Color.White;
             this.btnbuscar.IconChar = FontAwesome.Sharp.IconChar.MagnifyingGlass;
-            this.btnbuscar.IconColor = System.Drawing.Color.Yellow;
+            this.btnbuscar.IconColor = System.Drawing.Color.White;
             this.btnbuscar.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btnbuscar.IconSize = 40;
-            this.btnbuscar.Location = new System.Drawing.Point(677, 486);
+            this.btnbuscar.Location = new System.Drawing.Point(802, 637);
             this.btnbuscar.Name = "btnbuscar";
             this.btnbuscar.Size = new System.Drawing.Size(77, 48);
             this.btnbuscar.TabIndex = 124;
@@ -543,7 +543,7 @@
             // txtbusqueda
             // 
             this.txtbusqueda.Font = new System.Drawing.Font("Century Gothic", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtbusqueda.Location = new System.Drawing.Point(446, 493);
+            this.txtbusqueda.Location = new System.Drawing.Point(571, 644);
             this.txtbusqueda.Name = "txtbusqueda";
             this.txtbusqueda.Size = new System.Drawing.Size(208, 32);
             this.txtbusqueda.TabIndex = 123;
@@ -553,7 +553,7 @@
             this.cbobusqueda.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbobusqueda.Font = new System.Drawing.Font("Century Gothic", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cbobusqueda.FormattingEnabled = true;
-            this.cbobusqueda.Location = new System.Drawing.Point(273, 493);
+            this.cbobusqueda.Location = new System.Drawing.Point(398, 644);
             this.cbobusqueda.Name = "cbobusqueda";
             this.cbobusqueda.Size = new System.Drawing.Size(167, 31);
             this.cbobusqueda.TabIndex = 122;
@@ -563,7 +563,7 @@
             this.label11.AutoSize = true;
             this.label11.BackColor = System.Drawing.Color.Transparent;
             this.label11.Font = new System.Drawing.Font("Impact", 15F, System.Drawing.FontStyle.Italic);
-            this.label11.Location = new System.Drawing.Point(163, 496);
+            this.label11.Location = new System.Drawing.Point(288, 647);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(104, 25);
             this.label11.TabIndex = 121;
@@ -585,7 +585,7 @@
             this.btnexporterexcel.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btnexporterexcel.IconSize = 30;
             this.btnexporterexcel.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnexporterexcel.Location = new System.Drawing.Point(891, 280);
+            this.btnexporterexcel.Location = new System.Drawing.Point(1029, 393);
             this.btnexporterexcel.Name = "btnexporterexcel";
             this.btnexporterexcel.Size = new System.Drawing.Size(99, 136);
             this.btnexporterexcel.TabIndex = 126;
@@ -594,12 +594,12 @@
             this.btnexporterexcel.UseVisualStyleBackColor = false;
             this.btnexporterexcel.Click += new System.EventHandler(this.btnexporterexcel_Click_1);
             // 
-            // frmClientes
+            // formClientes
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.Orange;
-            this.ClientSize = new System.Drawing.Size(1002, 537);
+            this.BackColor = System.Drawing.Color.DarkGray;
+            this.ClientSize = new System.Drawing.Size(1200, 720);
             this.Controls.Add(this.btnexporterexcel);
             this.Controls.Add(this.btnlimpiarbuscador);
             this.Controls.Add(this.btnbuscar);
@@ -610,8 +610,7 @@
             this.Controls.Add(this.label10);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "frmClientes";
-            this.Opacity = 0.9D;
+            this.Name = "formClientes";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "frmClientes";
             this.Load += new System.EventHandler(this.frmClientes_Load);

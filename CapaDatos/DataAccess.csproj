@@ -43,6 +43,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DA_Compra.cs" />
+    <Compile Include="DA_HistorialdeCompras.cs" />
     <Compile Include="DA_Negocio.cs" />
     <Compile Include="DA_Categoria.cs" />
     <Compile Include="DA_Cliente.cs" />

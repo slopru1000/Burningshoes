@@ -28,10 +28,7 @@ namespace CapaPresentacion
         [DllImport("user32.DLL", EntryPoint = "SendMessage")]
         private extern static void SendMessage(System.IntPtr hwnd, int wmsg, int wparam, int lparam);
 
-
-
-
-        private void btningresar_Click_1(object sender, EventArgs e)
+        private void btnacceder_Click(object sender, EventArgs e)
         {
             List<Usuario> TEST = new BL_Usuario().Listar();
 
@@ -40,15 +37,9 @@ namespace CapaPresentacion
             if (ousuario != null)
             {
                 this.Hide();
-                formBienvenida bienvenida = new formBienvenida(ousuario);
-                bienvenida.ShowDialog();
-            
                 Inicio form = new Inicio(ousuario);
-
-                form.Show();
-                
-
                 form.FormClosing += frm_closing;
+                form.Show();
 
             }
             else
@@ -56,8 +47,8 @@ namespace CapaPresentacion
                 MessageBox.Show("No se encontro el usuario", "Mensaje", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
             }
 
-
         }
+
 
         private void frm_closing(object sender, FormClosingEventArgs e)
         {

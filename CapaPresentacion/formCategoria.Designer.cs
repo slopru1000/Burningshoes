@@ -245,7 +245,7 @@
             this.btnlimpiarbuscador.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnlimpiarbuscador.ForeColor = System.Drawing.Color.SaddleBrown;
             this.btnlimpiarbuscador.IconChar = FontAwesome.Sharp.IconChar.Broom;
-            this.btnlimpiarbuscador.IconColor = System.Drawing.Color.Yellow;
+            this.btnlimpiarbuscador.IconColor = System.Drawing.Color.White;
             this.btnlimpiarbuscador.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btnlimpiarbuscador.IconSize = 40;
             this.btnlimpiarbuscador.Location = new System.Drawing.Point(420, 417);
@@ -264,7 +264,7 @@
             this.btnbuscar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnbuscar.ForeColor = System.Drawing.Color.White;
             this.btnbuscar.IconChar = FontAwesome.Sharp.IconChar.MagnifyingGlass;
-            this.btnbuscar.IconColor = System.Drawing.Color.Yellow;
+            this.btnbuscar.IconColor = System.Drawing.Color.White;
             this.btnbuscar.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btnbuscar.IconSize = 40;
             this.btnbuscar.Location = new System.Drawing.Point(330, 417);
@@ -331,7 +331,7 @@
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Impact", 10F, System.Drawing.FontStyle.Italic);
-            this.label1.ForeColor = System.Drawing.Color.Orange;
+            this.label1.ForeColor = System.Drawing.Color.DarkGray;
             this.label1.Location = new System.Drawing.Point(1, 48);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(77, 18);
@@ -376,7 +376,7 @@
             // 
             // btnLimpiarDatos
             // 
-            this.btnLimpiarDatos.BackColor = System.Drawing.Color.Orange;
+            this.btnLimpiarDatos.BackColor = System.Drawing.Color.DarkGray;
             this.btnLimpiarDatos.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnLimpiarDatos.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.btnLimpiarDatos.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -448,7 +448,7 @@
             this.txtdescripcion.BackColor = System.Drawing.Color.Black;
             this.txtdescripcion.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtdescripcion.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtdescripcion.ForeColor = System.Drawing.Color.Khaki;
+            this.txtdescripcion.ForeColor = System.Drawing.Color.Silver;
             this.txtdescripcion.Location = new System.Drawing.Point(92, 66);
             this.txtdescripcion.Name = "txtdescripcion";
             this.txtdescripcion.Size = new System.Drawing.Size(224, 20);
@@ -460,7 +460,7 @@
             this.label8.AutoSize = true;
             this.label8.BackColor = System.Drawing.Color.Transparent;
             this.label8.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.ForeColor = System.Drawing.Color.Yellow;
+            this.label8.ForeColor = System.Drawing.Color.Silver;
             this.label8.Location = new System.Drawing.Point(9, 109);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(74, 21);
@@ -472,7 +472,7 @@
             this.label9.AutoSize = true;
             this.label9.BackColor = System.Drawing.Color.Transparent;
             this.label9.Font = new System.Drawing.Font("Impact", 25F, System.Drawing.FontStyle.Italic);
-            this.label9.ForeColor = System.Drawing.Color.Orange;
+            this.label9.ForeColor = System.Drawing.Color.DarkGray;
             this.label9.Location = new System.Drawing.Point(97, 6);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(318, 42);
@@ -491,11 +491,11 @@
             this.label10.Text = "Lista de Categorias";
             this.label10.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // frmCategoria
+            // formCategoria
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.Orange;
+            this.BackColor = System.Drawing.Color.DarkGray;
             this.ClientSize = new System.Drawing.Size(531, 578);
             this.Controls.Add(this.label10);
             this.Controls.Add(this.btnlimpiarbuscador);
@@ -511,8 +511,7 @@
             this.Controls.Add(this.dgvdatos);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "frmCategoria";
-            this.Opacity = 0.9D;
+            this.Name = "formCategoria";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "frmCategoria";
             this.Load += new System.EventHandler(this.frmCategoria_Load);

@@ -61,3 +61,5 @@ C:\Users\SERGIO LOPEZ\Desktop\Programas de c#\PROYECTO BS\CapaPresentacion\obj\D
 C:\Users\SERGIO LOPEZ\Desktop\Programas de c#\PROYECTO BS\CapaPresentacion\obj\Debug\UI.csproj.CopyComplete
 C:\Users\SERGIO LOPEZ\Desktop\Programas de c#\PROYECTO BS\CapaPresentacion\obj\Debug\CapaPresentacion.exe
 C:\Users\SERGIO LOPEZ\Desktop\Programas de c#\PROYECTO BS\CapaPresentacion\obj\Debug\CapaPresentacion.pdb
+C:\Users\SERGIO LOPEZ\Desktop\Programas de c#\PROYECTO BS\CapaPresentacion\obj\Debug\CapaPresentacion.formHistorialdecompras.resources
+C:\Users\SERGIO LOPEZ\Desktop\Programas de c#\PROYECTO BS\CapaPresentacion\obj\Debug\CapaPresentacion.formRoles.resources
